@@ -1,5 +1,5 @@
 {
-    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;14a42dfc35f4780e0d2aebf9fa397bbd",
+    "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;58adbd51a4bbed437f442e4e9a4c85c2",
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 	"sites": [{
 			"key": "豆豆",
@@ -64,8 +64,20 @@
 			"key": "赞赞",
 			"name": "➕赞赞┃切片",
 			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://agit.ai/xiaohewanwan/TVBox/raw/branch/master/js/zanzan.js",
+			"jar": "http://luoye.shop/c.jar;md5;bb155c3f0133bbce4756ad52003f5968",
+			"api": "csp_AppYsV2",
+			"ext": "http://154.12.21.186:119/api.php/app/",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 0
+		},
+		{
+			"key": "亮亮",
+			"name": "💡亮亮┃APP",
+			"type": 3,
+			"jar": "http://luoye.shop/c.jar;md5;bb155c3f0133bbce4756ad52003f5968",
+			"api": "csp_AppYsV2",
+			"ext": "http://api.jialiangos.com:65533/api.php/app/",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0
@@ -80,16 +92,7 @@
 			"quickSearch": 1,
 			"ext": "http://103.42.31.123:5820/api.php/app/"
 		},
-		{
-			"key": "亮亮",
-			"name": "💡亮亮┃APP",
-			"type": 3,
-			"api": "https://fanty.run.goorm.site/ext/js/drpy2.min.js",
-			"ext": "https://agit.ai/xiaohewanwan/TVBox/raw/branch/master/js/fy.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 0
-		},
+		
 		{
 			"key": "南瓜",
 			"name": "🎃南瓜┃App",
@@ -740,9 +743,36 @@
 			}
 		},
 		{
+			"name": "亮亮🌾",
+			"type": 1,
+			"url": "https://m.jialiangos.com/jx/?url=",
+			"ext": {
+				"flag": [
+					"K_JL",
+					"JIALIANGCODE"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.1.0"
+				}
+			}
+		},
+		{
+			"name": "赞赞🌾",
+			"type": 1,
+			"url": "http://zn.ghlyys.com/znjsonapi.php.php?url=",
+			"ext": {
+				"flag": [
+					"JMZN"
+				],
+				"header": {
+					"User-Agent": "okhttp/4.1.0"
+				}
+			}
+		},
+		{
 			"name": "左岸🌾",
 			"type": 1,
-			"url": "http://110.42.2.247:880/analysis/json/?uid=2500&my=cfiknqswABGHJSU058&format=json&url=",
+			"url": "http://110.42.2.247:880/analysis/json/?uid=2500&my=abejnoqyFGMN023789&format=json&url=",
 			"ext": {
 				"flag": [
 					"seven"
