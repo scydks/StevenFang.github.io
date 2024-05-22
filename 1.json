@@ -1,18 +1,18 @@
 {
-	"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716358261806/xmm.jar",
+	"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716360806207/xmmmmm.jar;md5;b6def02ec13662a8739d9f80f1f42e89",
 	"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
 	"sites": [{
 			"key": "豆豆",
-			"name": "🎟豆瓣┃接口免费",
+			"name": "豆瓣┃主页",
 			"type": 3,
-			"api": "csp_Douban",
+			"api": "csp_DouDou",
 			"searchable": 0,
 			"quickSearch": 0,
 			"filterable": 0
 		},
 		{
 			"key": "Bili",
-			"name": "🅱哔哩┃收费可耻",
+			"name": "哔哔┃合集",
 			"type": 3,
 			"api": "csp_Bili",
 			"style": {
@@ -22,7 +22,7 @@
 			"searchable": 1,
 			"quickSearch": 0,
 			"changeable": 0,
-			"ext": "https://agit.ai/fantaiying/fty/raw/branch/master/json/bilibili.json"
+			"ext": "https://gitlab.com/fantaiying/ext/-/raw/main/bilibili.json"
 		},
 		{
 			"key": "88js",
@@ -38,7 +38,7 @@
 		},
 		{
 			"key": "csp_Czsapp",
-			"name": "🏭️1080P┃厂长",
+			"name": "️1080P┃厂长",
 			"type": 3,
 			"api": "csp_NewCz",
 			"playerType": 2,
@@ -48,18 +48,24 @@
 			"filterable": 1
 		},
 		{
-			"key": "csp_WoGG",
-			"name": "🎈4KK┃玩偶",
+			"key": "玩偶",
+			"name": "🧸玩偶哥哥┃4K弹幕",
 			"type": 3,
 			"api": "csp_WoGG",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
-			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹"
+			"ext": {
+				"aliToken": "tvfan/token.txt",
+				"quarkCookie": "tvfan/cookie.txt",
+				"from": "4k|auto|fhd",
+				"siteUrl": "https://www.wogg.link/",
+				"danMu": "弹"
+			}
 		},
 		{
 			"key": "sansan",
-			"name": "⭕️1080P┃解析",
+			"name": "1080P┃解析",
 			"type": 3,
 			"api": "csp_SP360",
 			"searchable": 1,
@@ -68,7 +74,7 @@
 		},
 		{
 			"key": "酷看",
-			"name": "🦁1080P┃快看",
+			"name": "1080P┃快看",
 			"type": 3,
 			"api": "csp_Kkys",
 			"searchable": 1,
@@ -76,8 +82,26 @@
 			"changeable": 1
 		},
 		{
+			"key": "剧圈",
+			"name": "1080P┃剧圈",
+			"type": 3,
+			"api": "csp_Juqq",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
+			"key": "云播",
+			"name": "1080P┃云播",
+			"type": 3,
+			"api": "csp_Tvyb",
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
 			"key": "南瓜",
-			"name": "🎃1080P┃南瓜",
+			"name": "1080P┃南瓜",
 			"type": 3,
 			"api": "csp_NanGua",
 			"playerType": 2,
@@ -87,7 +111,7 @@
 		},
 		{
 			"key": "saohuo",
-			"name": "🔥1080P┃骚火",
+			"name": "1080P┃骚火",
 			"type": 3,
 			"searchable": 1,
 			"changeable": 0,
@@ -110,14 +134,14 @@
 		},
 		{
 			"key": "freeok",
-			"name": "🌟1080P┃FROK",
+			"name": "1080P┃FROK",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"playerType": "2",
 			"jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1704761840381/c (1).txt;md5;bb155c3f0133bbce4756ad52003f5968",
 			"ext": {
 				"分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html;;ar1",
-				"请求头":"User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+				"请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
 				"分类": "FREE电影&FREE剧集&FREE动漫&FREE综艺",
 				"分类值": "1&2&3&4",
 				"副标题": "<div class=\"module-item-note\">&&</div>",
@@ -130,18 +154,28 @@
 			}
 		},
 		{
-			"key": "csp_Nmys",
-			"name": "🧑1080P┃农民",
+			"key": "苹果",
+			"name": "苹果┃1080P",
 			"type": 3,
-			"api": "csp_Nmys",
+			"api": "csp_LiteApple",
 			"searchable": 1,
 			"quickSearch": 1,
-			"changeable": 0,
-			"ext": "https://agit.ai/fantaiying/fty/raw/branch/master/ext/nmys.json"
+			"changeable": 1
+		},
+		{
+			"key": "糯米",
+			"name": "糯米┃秒播",
+			"type": 3,
+			"api": "csp_Nmys",
+			"timeout": 15,
+			"searchable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": "https://gitlab.com/fantaiying/ext/-/raw/main/nmys.json"
 		},
 		{
 			"key": "黑狐",
-			"name": "🦊1080P┃黑狐",
+			"name": "1080P┃黑狐",
 			"type": 3,
 			"searchable": 1,
 			"quickSearch": 1,
@@ -184,7 +218,7 @@
 		},
 		{
 			"key": "双黄",
-			"name": "🥚1080P┃蛋蛋",
+			"name": "1080P┃蛋蛋",
 			"type": 3,
 			"jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1704761840381/c (1).txt;md5;bb155c3f0133bbce4756ad52003f5968",
 			"api": "csp_XBPQ",
@@ -201,7 +235,7 @@
 		},
 		{
 			"key": "热播库",
-			"name": "🔥1080P┃热播",
+			"name": "1080P┃热播",
 			"type": 3,
 			"changeable": 1,
 			"jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1704761840381/c (1).txt;md5;bb155c3f0133bbce4756ad52003f5968",
@@ -216,8 +250,7 @@
 				"副标题": "class=\"pic-text text-right\"><b>&&</span>",
 				"搜索模式": "0",
 				"嗅探词": ".m3u8#video_mp4#tos-#.mp4#cdn.123pan.cn#huoshanvod.com",
-				"线路数组": "<h4 class=\"title&&/h4>",
-				"线路标题": ">&&<",
+				
 				"播放列表": "<a&&/a>",
 				"播放标题": ">&&<",
 				"影片类型": "类型：&&</p>",
@@ -228,26 +261,30 @@
 				"分类url": "https://rebozj.pro/show/{cateId}--{area}------{catePg}---{year}.html;;a"
 			}
 		},
+
 		{
-			"key": "YiSo",
-			"name": "☁️4KK┃易搜",
+			"key": "zhitiao",
+			"name": "🚀4KK┃易搜",
 			"type": 3,
 			"api": "csp_YiSo",
 			"searchable": 1,
 			"quickSearch": 1,
-			"filterable": 0,
 			"changeable": 0,
-			"ext": "http://127.0.0.1:9978/file/tvboxqq/token.txt+4k|fhd|auto$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294"
+			"ext": "tvfan/token.txt$$$satoken=e96da071-9159-4827-89e1-ea93eea899e1"
 		},
 		{
-			"key": "PanSou",
-			"name": "🦊小米┃盘搜",
+			"key": "米搜",
+			"name": "🍚米搜┃搜索",
 			"type": 3,
 			"api": "csp_MIPanSo",
 			"searchable": 1,
 			"quickSearch": 1,
 			"changeable": 0,
-			"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+			"ext": {
+				"pan": "quark",
+				"quarkCookie": "tvfan/cookie.txt",
+				"from": "4k|auto|fhd"
+			}
 		},
 		{
 			"key": "push_agent",
@@ -318,14 +355,54 @@
 			}
 		}
 	],
-	"lives": [{
-		"name": "IPv4",
-		"type": 0,
-		"url": "http://124.223.177.85:88/svip/直播挺快.txt",
-		"ua": "okhttp/3.12.13",
-		"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-		"logo": "https://epg.112114.xyz/logo/{name}.png"
-	}],
+	"lives": [
+    {
+      "name": "综合1",
+      "type": 0,
+      "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924111/live1.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "综合2",
+      "type": 0,
+      "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924675/live2.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "综合3",
+      "type": 0,
+      "url": "https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:22:21/1714036941087/98644330/wexiptv.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "IPV4",
+      "type": 0,
+      "url": "https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:25:01/1714037101343/5511539/wexlive.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "IPV6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+	
 	"doh": [{
 			"name": "Google",
 			"url": "https://dns.google/dns-query",
